@@ -21,6 +21,7 @@
 		9C7321A5194CF6B40015FDAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C732187194CF6B30015FDAC /* UIKit.framework */; };
 		9C7321AD194CF6B40015FDAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C7321AB194CF6B40015FDAC /* InfoPlist.strings */; };
 		9C7321AF194CF6B40015FDAC /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7321AE194CF6B40015FDAC /* Git_TestTests.m */; };
+		9C7321BA194CFAC60015FDAC /* SDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7321B9194CFAC60015FDAC /* SDTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9C7321AA194CF6B40015FDAC /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		9C7321AC194CF6B40015FDAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9C7321AE194CF6B40015FDAC /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		9C7321B8194CFAC60015FDAC /* SDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDTest.h; path = ../SDTest.h; sourceTree = "<group>"; };
+		9C7321B9194CFAC60015FDAC /* SDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDTest.m; path = ../SDTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				9C732195194CF6B30015FDAC /* Main.storyboard */,
 				9C732198194CF6B30015FDAC /* SDViewController.h */,
 				9C732199194CF6B30015FDAC /* SDViewController.m */,
+				9C7321B8194CFAC60015FDAC /* SDTest.h */,
+				9C7321B9194CFAC60015FDAC /* SDTest.m */,
 				9C73219B194CF6B30015FDAC /* Images.xcassets */,
 				9C73218A194CF6B30015FDAC /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				9C732190194CF6B30015FDAC /* main.m in Sources */,
 				9C73219A194CF6B30015FDAC /* SDViewController.m in Sources */,
+				9C7321BA194CFAC60015FDAC /* SDTest.m in Sources */,
 				9C732194194CF6B30015FDAC /* SDAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
